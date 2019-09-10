@@ -1,0 +1,103 @@
+/*-----------------------
+General
+-------------------------*/
+
+
+h2{
+	color: #5878af
+}
+.bg-gray {
+	background-color: #fafafa;
+	height: 100vh;
+}
+
+/*-----------------------
+Custom Icons SVG
+-------------------------*/
+.fa-svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+    font-size: inherit;
+	vertical-align: -0.125em;	
+	transition: fill 0.15s ease-in-out;
+	-webkit-transition: fill 0.15s ease-in-out;
+}
+/*-----------------------
+Fonts
+-------------------------*/
+.font-38 {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    
+	.font-38 {
+        font-size: 2rem;
+    }
+   
+}
+/* --------------------------
+US MAP 
+-----------------------------*/
+.map-container{
+	overflow: auto;
+
+}
+.state{
+	fill: none;
+	stroke: #a9a9a9;
+	stroke-width: 2;
+}
+.state:hover{
+
+	fill-opacity:0.5;
+}
+#tooltip {   
+	position: absolute;           
+	text-align: left;
+	padding: 10px;             
+	margin: 10px;
+	background: lightsteelblue;   
+	border: 1px;      
+	border-radius: 2px;           
+	pointer-events: auto;         
+}
+#tooltip h4{
+	margin:0;
+	font-size:15px;
+	font-weight: 900;
+	
+}
+#tooltip{
+	background:rgba(0,0,0,0.9);
+	border:1px solid grey;
+	border-radius:5px;
+	font-size:13px;
+	width:auto;
+	color:white;
+	opacity:0;
+	z-index: 99999999999999999;
+	width: 145px
+}
+#tooltip table{
+	table-layout:fixed;
+	margin: 5px 0;
+}
+
+#tooltip .fa-svg{
+	fill: white;
+
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#statesvg{
+		width: 940px;
+		height: 600px;
+	}
+}
+@media (min-width: 992px){
+	#tooltip {             
+		pointer-events: none;   
+		width: auto      
+	}
+}
