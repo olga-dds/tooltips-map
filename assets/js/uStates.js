@@ -144,7 +144,7 @@
 			d3.select(id).selectAll(".state")
 				.data(uStatePaths).enter().append("path").attr("class", "state").attr("d", function (d) { return d.d; })
 				.style("fill", function (d) { return data[d.id].color; })
-				.on("mouseover", open).on("mouseout", close)
+				.on("mouseover", open)
 		}
 
 		function mouseOver(d) {
@@ -178,6 +178,11 @@
 		}
 	}
 
+	var tooltip = document.getElementById("tooltip")
+	tooltip.addEventListener("click",function(){
+		var d = this
+		d.style.display = "none"
+	})
 
 	this.uStates = uStates;
 
