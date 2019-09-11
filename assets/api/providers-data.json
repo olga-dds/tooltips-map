@@ -1,136 +1,565 @@
 [
   {
-    "zillowoffers": [
-      {
-        "state": "CO",
-        "value": 12
-      },
-      {
-        "state": "GA",
-        "value": 81
-      },
-      {
-        "state": "NC",
-        "value": 84
-      },
-      {
-        "state": "TX",
-        "value": 99
-      },
-      {
-        "state": "CA",
-        "value": 511
-      },
-   
-      {
-        "state": "IL",
-        "value": 105
-      },
-      {
-        "state": "WI",
-        "value": 60
-      }
- 
+    "state": "HI",
+    "providers": [
+      "DIRECTV",
+      "Spectrum"
     ]
   },
   {
-    "opendoor": [
-      {
-        "state": "FL",
-        "value": 124
-      },
-      {
-        "state": "OH",
-        "value": 63
-      },
-      {
-        "state": "MT",
-        "value": 24
-      },
-      {
-        "state": "CO",
-        "value": 52
-      },
-      {
-        "state": "NE",
-        "value": 16
-      },
-      {
-        "state": "MS",
-        "value": 312
-      },
-      {
-        "state": "OK",
-        "value": 71
-      }
+    "state": "AK",
+    "providers": [
+      "DIRECTV"
     ]
   },
   {
-    "offerpad": [
-      {
-        "state": "TX",
-        "value": 12
-      },
-      {
-        "state": "AL",
-        "value": 97
-      },
-      {
-        "state": "NY",
-        "value": 9
-      },
-      {
-        "state": "WY",
-        "value": 74
-      },
-      {
-        "state": "AZ",
-        "value": 157
-      },
-      {
-        "state": "NV",
-        "value": 25
-      },
-      {
-        "state": "MO",
-        "value": 37
-      }
+    "state": "FL",
+    "providers": [
+      "AT&T",
+      "Spectrum",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Windstream"
     ]
   },
   {
-    "knock": [
-      {
-        "state": "CO",
-        "value": 10
-      },
-      {
-        "state": "OK",
-        "value": 55
-      },
-      {
-        "state": "GA",
-        "value": 51
-      },
-      {
-        "state": "TX",
-        "value": 12
-      },
-      {
-        "state": "CA",
-        "value": 214
-      },
-      {
-        "state": "ID",
-        "value": 44
-      },
-      {
-        "state": "ND",
-        "value": 23
-      },
-      {
-        "state": "IN",
-        "value": 95
-      }
+    "state": "SC",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "GA",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "AL",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "NC",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "TN",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "RI",
+    "providers": [
+      "Cox",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "CT",
+    "providers": [
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier"
+    ]
+  },
+  {
+    "state": "MA",
+    "providers": [
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "ME",
+    "providers": [
+      "Xfinity",
+      "Dish",
+      "DIRECTV",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "NH",
+    "providers": [
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "VT",
+    "providers": [
+      "Charter",
+      "Xfinity",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "NY",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "NJ",
+    "providers": [
+      "CenturyLink",
+      "Xfinity",
+      "DIRECTV",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "PA",
+    "providers": [
+      "CenturyLink",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "DE",
+    "providers": [
+      "Xfinity",
+      "DIRECTV",
+      "Mediacom"
+    ]
+  },
+  {
+    "state": "MD",
+    "providers": [
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Mediacom"
+    ]
+  },
+  {
+    "state": "WV",
+    "providers": [
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "KY",
+    "providers": [
+      "AT&T",
+      "Cincinnati Bell",
+      "Xfinity",
+      "DIRECTV",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "OH",
+    "providers": [
+      "AT&T",
+      "Buckeye Cable",
+      "CenturyLink",
+      "Cincinnati Bell",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "MI",
+    "providers": [
+      "AT&T",
+      "Buckeye Cable",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "WY",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "MT",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "DIRECTV",
+      "Frontier"
+    ]
+  },
+  {
+    "state": "ID",
+    "providers": [
+      "CenturyLink",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "WA",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "DC",
+    "providers": [
+      "Xfinity",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "TX",
+    "providers": [
+      "AT&T",
+      "Baja",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "CA",
+    "providers": [
+      "AT&T",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "AZ",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "NV",
+    "providers": [
+      "AT&T",
+      "Baja",
+      "CenturyLink",
+      "Charter",
+      "Cox",
+      "DIRECTV",
+      "Frontier"
+    ]
+  },
+  {
+    "state": "UT",
+    "providers": [
+      "Baja",
+      "CenturyLink",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier"
+    ]
+  },
+  {
+    "state": "CO",
+    "providers": [
+      "Baja",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "NM",
+    "providers": [
+      "Baja",
+      "CenturyLink",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "OR",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier"
+    ]
+  },
+  {
+    "state": "ND",
+    "providers": [
+      "CenturyLink",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "SD",
+    "providers": [
+      "CenturyLink",
+      "DIRECTV",
+      "Mediacom"
+    ]
+  },
+  {
+    "state": "NE",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "IA",
+    "providers": [
+      "CenturyLink",
+      "Cox",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "MS",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "IN",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Cincinnati Bell",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "IL",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom"
+    ]
+  },
+  {
+    "state": "MN",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "WI",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Frontier",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "MO",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "DIRECTV",
+      "Mediacom",
+      "Spectrum",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "AR",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "OK",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Cox",
+      "DIRECTV",
+      "Windstream"
+    ]
+  },
+  {
+    "state": "KS",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Mediacom",
+      "Spectrum"
+    ]
+  },
+  {
+    "state": "LA",
+    "providers": [
+      "AT&T",
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV"
+    ]
+  },
+  {
+    "state": "VA",
+    "providers": [
+      "CenturyLink",
+      "Charter",
+      "Xfinity",
+      "Cox",
+      "DIRECTV",
+      "Mediacom",
+      "Spectrum"
     ]
   }
 ]

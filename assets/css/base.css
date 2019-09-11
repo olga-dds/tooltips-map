@@ -89,6 +89,12 @@ US MAP
 	fill: white;
 
 }
+.label-state{
+	fill: #f3ebeb;
+	font-size: 11px;
+	font-weight: bold;
+	pointer-events: none;
+}
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	#statesvg{
 		width: 940px;
