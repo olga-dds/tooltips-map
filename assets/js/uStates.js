@@ -41,7 +41,7 @@
 		function open(d) {
 			var position
 			if (width - d3.event.pageX <= 150) {
-				position = 135 + 15
+				position = 120 + 15
 			} else {
 				position = 0
 			}
@@ -116,7 +116,7 @@
 		uStatePaths.map(function (item) {
 			return item.id
 		}).forEach(function (d) {
-			var stateProviders = allProviders.find(function (e) {
+			var stateProviders = allProviders.find(function(e){
 				return e.state === d
 			})
 			var low = Math.round(100 * Math.random())

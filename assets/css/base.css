@@ -73,12 +73,12 @@ US MAP
 	background:rgba(0,0,0,0.9);
 	border:1px solid grey;
 	border-radius:5px;
-	font-size:13px;
+	font-size:11px;
 	width:auto;
 	color:white;
 	opacity:0;
 	z-index: 99999999999999999;
-	width: 135px
+	width: 120px
 }
 #tooltip table{
 	table-layout:fixed;
@@ -88,6 +88,10 @@ US MAP
 #tooltip .fa-svg{
 	fill: white;
 
+}
+#tooltip h6{
+	font-size: 0.8rem ;
+	margin-bottom: 0 !important
 }
 .label-state{
 	fill: #f3ebeb;
@@ -104,6 +108,10 @@ US MAP
 @media (min-width: 992px){
 	#tooltip {             
 		pointer-events: none;   
-		width: auto      
+		width: auto ;
+		font-size:13px;     
+	}
+	#tooltip h6{
+		font-size: 1rem 
 	}
 }
