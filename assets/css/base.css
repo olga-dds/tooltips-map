@@ -78,7 +78,7 @@ US MAP
 	color:white;
 	opacity:0;
 	z-index: 99999999999999999;
-	width: 120px
+	width: 100px
 }
 #tooltip table{
 	table-layout:fixed;

@@ -41,7 +41,7 @@
 		function open(d) {
 			var position
 			if (width - d3.event.pageX <= 150) {
-				position = 120 + 15
+				position = 100 + 15
 			} else {
 				position = 0
 			}
