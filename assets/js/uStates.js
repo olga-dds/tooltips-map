@@ -1,5 +1,5 @@
 (function () {
-	var uStatePaths, allProviders, urlObj, sampleData, uStates, tooltip, width;
+	var uStatePaths, allProviders, urlObj, sampleData, uStates, tooltip, width, smallStates;
 
 
 	urlObj = {
@@ -11,12 +11,11 @@
 	allProviders = []
 	sampleData = {};	/* Sample random data. */
 	uStates = {};
-
+	smallStates = []
 	initMap()
 
 
-	uStates.draw = function (id,mapdata, data, toolTip) {
-		console.log(arguments)
+	uStates.draw = function (id, mapdata, data, toolTip) {
 		width = document.documentElement.clientWidth;
 		if (width >= 1024) {
 			createSvgGroup(id, mapdata, data, mouseOver, mouseOut)
@@ -55,7 +54,7 @@
 		function close() {
 			return null
 		}
-
+	
 	}
 
 	tooltip = document.getElementById("tooltip")
@@ -69,10 +68,19 @@
 
 	function createSvgGroup(id, mapData, data, mouseOver, mouseOut) {
 		d3.select(id).selectAll("g")
+
 			.data(mapData).enter().append("g")
+
 			.append("path")
 			.attr("class", "state")
 			.attr("d", function (d) { return d.d; })
+			.each(function (d, i) {
+
+				if (this.getBoundingClientRect().width < 55) {
+					smallStates.push(d)
+				}
+
+			})
 			.style("fill", function (d) { return data[d.id].color; })
 			.on("mouseover", mouseOver).on("mouseout", mouseOut);
 	}
@@ -90,7 +98,6 @@
 	}
 
 	function getMapData(urlObj) {
-
 		return fetch(urlObj.mapdata)
 			.then(function (response) {
 				return response.json();
@@ -116,7 +123,7 @@
 		uStatePaths.map(function (item) {
 			return item.id
 		}).forEach(function (d) {
-			var stateProviders = allProviders.find(function(e){
+			var stateProviders = allProviders.find(function (e) {
 				return e.state === d
 			})
 			var low = Math.round(100 * Math.random())
@@ -125,13 +132,22 @@
 		})
 	}
 
+	function createSmallData() {
+		smallStates.map(function (e, index) {
+			e.c.x = 600;
+			e.c.y = 600 * index
+		})
+	}
+
 	function initMap() {
 		getMapData(urlObj)
 			.then(function () {
 				createSampleData()
+				createSmallData()
 			})
 			.then(function () {
 				uStates.draw("#statesvg", uStatePaths, sampleData, tooltipHtml);
+			
 			})
 	}
 
