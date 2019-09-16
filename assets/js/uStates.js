@@ -1,5 +1,5 @@
 (function () {
-	var uStatePaths, allProviders, urlObj, sampleData, uStates, tooltip, width, smallStates;
+	var uStatePaths, allProviders, urlObj, sampleData, uStates, tooltip, width, smallStates,slallStatesMod;
 
 
 	urlObj = {
@@ -12,6 +12,7 @@
 	sampleData = {};	/* Sample random data. */
 	uStates = {};
 	smallStates = []
+	slallStatesMod = []
 	initMap()
 
 
@@ -133,21 +134,23 @@
 	}
 
 	function createSmallData() {
-		smallStates.map(function (e, index) {
-			e.c.x = 600;
-			e.c.y = 600 * index
+      smallStates.map(function (e, index) {
+		  e.c.x = 600;
+			e.c.y = 600 * index;
 		})
+		
 	}
 
 	function initMap() {
 		getMapData(urlObj)
 			.then(function () {
-				createSampleData()
-				createSmallData()
+				createSampleData();
+			
 			})
 			.then(function () {
 				uStates.draw("#statesvg", uStatePaths, sampleData, tooltipHtml);
-			
+				createSmallData();
+			  console.log(smallStates)
 			})
 	}
 
