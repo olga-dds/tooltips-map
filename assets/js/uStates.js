@@ -78,6 +78,15 @@
 			.each(function (d, i) {
 
 				if (this.getBoundingClientRect().width < 55) {
+					console.log("data from each function",d)
+					d3.select(id).selectAll("rect")
+					.append("rect")
+					.attr("class", "small-state-"+d.id)
+					.attr("x",function(d){
+						console.log("dfsdf")
+						return 900})
+					.attr("y",function(d){return 200})
+				  .style("fill","blue");
 					smallStates.push(d)
 				}
 
@@ -149,8 +158,8 @@
 			})
 			.then(function () {
 				uStates.draw("#statesvg", uStatePaths, sampleData, tooltipHtml);
-				createSmallData();
-			  console.log(smallStates)
+				// createSmallData();
+			  // console.log(smallStates)
 			})
 	}
 
